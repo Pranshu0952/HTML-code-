@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  h1{
+        text-align: center;
+      }
+    form {
+      
+        max-width: 400px;
+        margin: auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="number"], 
+      input[type="date"], 
+      input[type="password"], 
+      input[type="password"], 
+      input[type="password"], 
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0 15px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registation Form    </title>
+</head>
+<body>
+    
+    
+    <h1>Student regitation form  : </h1>
+
+    <form action="URL " method="POST">
+   
+    <label for ="Name ">Name </label>
+    <input type="text" Name ="Name " id ="name " placeholder=" Enter your name ">
+    
+    <label for ="email ">Email </label>
+    <input type="email" Name ="email " id ="email " placeholder=" Enter your email ">
+   
+    <label for=" password">Password</label>
+    <input type="password" password ="password" id ="password" placeholder="password">
+
+    <label for ="Phone ">Phone </label>
+    <input type="number" Phone =" Phone " id ="Phone  " placeholder=" Enter your Phone  ">
+    
+    <label for ="DOB">DOB</label>
+    <input type="date" DOB ="DOB" id ="DOB " placeholder=" Enter your DOB "> 
+    
+
+     <label for="gender">Gender :</label>
+     <input type="radio" name="gender" id="male" value="Male">
+     <label for="male">Male 👨‍⚕️</label>
+     
+     <input type="radio" name="gender" id="female" value="Female">
+     <label for="female">Female 🕵️‍♀️</label>
+     
+     <input type="radio" name="gender" id="transgender" value="Transgender">
+     <label for="transgender">Transgender</label>
+
+     <br><br>
+     <label for =" Hobbise">Hobbise   :</label>
+        <input type="checkbox" name="gym" id="gym">
+        <label for ="gym">Gym</label>
+        <input type="checkbox" name="coding" id="coding">
+        <label for ="coding">Coding</label>
+        <input type="checkbox" name="teaching" id="teaching">
+        <label for ="gym">Teaching</label>
+        <input type="checkbox" name="reading" id="reading">
+        <label for ="gym">Reading</label>
+        
+    <br><br>
+     <label for ="courses">Course</label>
+     <select name="courses" id="courses">
+        <option value="1">java </option>
+        <option value="2">Python </option>
+        <option value="3">C language </option>
+        <option value="4"> My SQL </option>
+        <option value="5">frontend fire serice </option>
+     </select>
+
+     <br><br>
+     
+    <label for ="image" >Profile pik</label>
+    <input type="file" name="image" id="image" accept="image/*">
+
+     <br><br><br>
+     <label for ="About ypir self"></label>
+     <textarea name="About ypir self" id="About ypir self" cols="20" rows="3" placeholder="Tell me about your self ...... ""></textarea>
+
+     <input type="submit" value=" registation complet">
+
+    </form>
+
+ 
+</html>
